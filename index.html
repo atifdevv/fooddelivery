@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>food delivery website</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
 </head>
 <body>
     <!-- HEADER PART -->
@@ -143,43 +148,110 @@
                 <h5>Our Menu</h5>
              <h2>The Most Popular</h2>
              </div>
-             <div class="card-list text-center flex mt-4 gap-3">
-                <div class="order-card">
+             <div class="card-list text-center flex mt-4 gap-2">
+                <!-- <div class="order-card">
                     <div class="card-image">
                         <img src="burger.png">
                     </div>
                     <h4>Double Beef Burger</h4>
                     <h4 class="price">$200</h4>
                     <a href="#" class="btn">Add to Cart</a>
-                </div>
-                <div class="order-card">
-                    <div class="card-image">
-                        <img src="burger.png">
-                    </div>
-                    <h4>Double Beef Burger</h4>
-                    <h4 class="price">$200</h4>
-                    <a href="#" class="btn">Add to Cart</a>
-                </div>
-                <div class="order-card">
-                    <div class="card-image">
-                        <img src="burger.png">
-                    </div>
-                    <h4>Double Beef Burger</h4>
-                    <h4 class="price">$200</h4>
-                    <a href="#" class="btn">Add to Cart</a>
-                </div>
-                <div class="order-card">
-                    <div class="card-image">
-                        <img src="burger.png">
-                    </div>
-                    <h4>Double Beef Burger</h4>
-                    <h4 class="price">$200</h4>
-                    <a href="#" class="btn">Add to Cart</a>
-                </div>
+                </div> -->
              </div>
             </div>
         </section>
-          <section>
+        <section>
+            <div class="wrapper p-top flex gap-3">
+            <div class="image-container">
+                <img src="delivery-boy-with-phone.png">
+            </div>
+
+            <div class="content">
+                <h5>Our reviews</h5>
+                <h2>What thay say?</h2>
+                 <div class="review-container"> 
+                    <div class="swiper mySwiper mt-4">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="flex gap-2">
+            <div class="profile">
+                <img src="profile1.jpeg">
+            </div>
+            <div>
+                <h4>Guy Hawkins</h4>
+                <div class="mt-half">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>  
+                    <i class="fa-solid fa-star"></i>  
+                </div>
+            </div>
+        </div>
+        <p class="para">
+            Foodie is the best. Basides the many delicious the service is also very good,espacilly very delivery. I highly recommend Foodie to you. 
+        </p>
+      </div>
+      <div class="swiper-slide">
+        <div class="flex gap-2">
+            <div class="profile">
+                <img src="profile2.jpeg">
+            </div>
+            <div>
+                <h4>Sophia Anderson</h4>
+                <div class="mt-half">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>  
+                    <i class="fa-solid fa-star"></i>  
+                </div>
+            </div>
+        </div>
+        <p class="para">
+           Fresh ingredients, creative menu, and warm service
+make this spot a hidden gem. Perfect for casual dinners
+or special nights out. Truly a foodies paradise!
+        </p>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="flex gap-2">
+            <div class="profile">
+                <img src="profile3.jpeg">
+            </div>
+            <div>
+                <h4>Olivia Smith</h4>
+                <div class="mt-half">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>  
+                    <i class="fa-solid fa-star"></i>  
+                </div>
+            </div>
+        </div>
+        <p class="para">
+          Delicious dishes, cozy ambiance, and exceptional service.
+A must-visit for food lovers seeking bold flavors and
+unforgettable dining experiences. Highly recommended,
+every bite delights!
+        </p>
+      </div>
+      
+    </div>
+    <div class="flex between">
+        <a href="#" class="arrow" id="prev">
+          <i class="fa-solid fa-arrow-left" ></i>  
+        </a>
+        <a href="#" class="arrow" id="next">
+          <i class="fa-solid fa-arrow-right"></i>  
+        </a>
+    </div>
+  </div>
+                 </div>
+
+            </div>
+            </div>
+        </section>
+        <section>
             <div class="wrapper p-top">
             <div class="app-container flex between">
                <div class="app-image">
@@ -202,11 +274,5 @@
         
        </footer>
        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-      </main>
-
-      <!-- FOOTER PART -->
-       <footer>
-        
-       </footer>
 </body>
 </html>
